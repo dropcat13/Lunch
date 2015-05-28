@@ -18,6 +18,8 @@ public static void main(String[] args) {
     Lunch bLunch = new Lunch ("sandwich", "beige", 30);
 
     Lunch cLunch = new Lunch ("crisps", "orange", 20);
+    
+    Lunch dLunch = new Lunch ("cake", "brown", 10); 
 }
 
     private static class Lunch {
@@ -27,6 +29,7 @@ public static void main(String[] args) {
         int mass = 0;
     
         public Lunch() {
+            // something something lunch
             type = this.type;
             colour = this.colour;
             mass = this.mass;
@@ -37,3 +40,5 @@ public static void main(String[] args) {
             colour = sColour;
             mass = sMass;
         }}}
+// mass in grams!!!! 
+// this is a change
